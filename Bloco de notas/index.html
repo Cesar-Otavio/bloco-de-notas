@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bloco de Notas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Bloco de Notas</h1>
+    <textarea id="note" placeholder="Digite sua anotação aqui..."></textarea>
+    <div class="buttons">
+      <button onclick="salvarNota()">💾 Salvar</button>
+      <button onclick="limparNota()">🗑️ Limpar</button>
+    </div>
+    <p class="status" id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
